@@ -1,6 +1,6 @@
 # _Word Counter_
 
-#### _single Webpage for Epicodus, 11.16.2018_
+#### _A C# program for Epicodus, 11.16.2018_
 
 #### By _**Kaveh Saleminejad**_
 
@@ -11,13 +11,11 @@ _it gets a word and a sentence from user. Then it will count how many times the 
 ## Behavior-Driven Development
 
 * _First make sure the input word and sentence are valid_
-_For example: "" is not valid_
+_For example: "" is not valid for both and "Hey you" is not valid for word_
 * _Next change both the input word and sentence to lowercase characters_
 _For example: "I am happy" should be change to  ["i am happy"]_
-* _Then chunk the sentence into an array of words_
-_For example: "i am happy." should be create ["i","am","happy."]_
-* _Now it's the time to get rid of all non alphabetical characters in the array_
-_For example: "i", "am", "happy." should be change to ["i","am","happy"]_
+* _Then chunk the sentence into an array of words and get rid of all characters except alphabets and numbers_
+_For example: "i am happy." should be create ["i","am","happy"]_
 * _After that check the input word with all words in the sentence to find the duplicates_
 _For example: the word "found" appears once in the ["i", "found", "a", "solution"]_
 
@@ -36,16 +34,11 @@ _For example: the word "found" appears once in the ["i", "found", "a", "solution
 
 _Contact Kaveh Saleminejad - lcaveh@gmail.com._
 
-## GitHub page's links
-
-[My project's link]
-
 ## Technologies Used
 
 * _C#_
 * _.NET_
 * _MS Test_
-
 
 ### License
 
